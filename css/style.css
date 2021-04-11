@@ -3550,7 +3550,9 @@ input[type="button"].btn-block {
   display: block;
   padding: 0.5rem 1rem; }
   .nav-link:hover, .nav-link:focus {
-    text-decoration: none; }
+    text-decoration: none;
+background-image: linear-gradient(135deg,#e4b333 10%,#ea5455 100%);
+  }
   .nav-link.disabled {
     color: #6c757d;
     pointer-events: none;
@@ -3565,7 +3567,7 @@ input[type="button"].btn-block {
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem; }
     .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-      border-color: #e9ecef #e9ecef #dee2e6; }
+      border-color: #0057ad #e9ecef #dee2e6; }
     .nav-tabs .nav-link.disabled {
       color: #6c757d;
       background-color: transparent;
@@ -8717,26 +8719,27 @@ background: linear-gradient(to right, #45B649, #DCE35B) !important; /* W3C, IE 1
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
-  border-radius: 5px;
+  border-radius: 25px;
   -webkit-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
   -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
   box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09); }
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #fc5e28;
-    border: 1px solid #fc5e28 !important;
+    background-image: linear-gradient(135deg,#e4b333 10%,#ea5455 100%);
+    border: 0.5px solid #f3cea3c0 !important;
     color: #fff !important; }
     .btn.btn-primary:hover {
-      border: 1px solid #fc5e28;
-      background: #fc5e28;
-      color: #fc5e28; }
+      border: 0.5px solid #ffffff !important;
+      background-image: linear-gradient(135deg,#ea5455 10%,#eac754 100%);
+      /* color: #fc5e28;  */
+    }
     .btn.btn-primary.btn-outline-primary {
       border: 2px solid #fc5e28 !important;
       background: transparent !important;
       color: #fc5e28 !important; }
       .btn.btn-primary.btn-outline-primary:hover {
-        border: 2px solid transparent !important;
+        border: 1px solid transparent !important;
         background: #fc5e28 !important;
         color: #fff !important; }
   .btn.btn-secondary {
@@ -8805,7 +8808,7 @@ background: linear-gradient(to right, #45B649, #DCE35B) !important; /* W3C, IE 1
       bottom: 0;
       content: '';
       opacity: .8;
-      background: #040e26;
+      background: #042621;
       z-index: -1; }
   @media (max-width: 991.98px) {
     .ftco-intro {
@@ -9088,7 +9091,10 @@ background: linear-gradient(to right, #45B649, #DCE35B) !important; /* W3C, IE 1
         display: none; } }
 
 .aside-stretch-right {
-  background: #040e26; }
+  /* background: #040e26; */
+  background-image: linear-gradient(90deg,#e4b333 10%,#ea5455 100%);
+
+}
   .aside-stretch-right:after {
     position: absolute;
     top: 0;
@@ -9096,10 +9102,16 @@ background: linear-gradient(to right, #45B649, #DCE35B) !important; /* W3C, IE 1
     bottom: 0;
     content: '';
     width: 360%;
-    background: #040e26; }
+    /* background: #040e26;  */
+    background-color: #ea5455;
+  
+  }
   @media (max-width: 767.98px) {
     .aside-stretch-right {
-      background: #040e26; }
+      /* background: #040e26;  */
+      background-image: linear-gradient(180deg,#e4b333 10%,#ea5455 100%);
+    
+    }
       .aside-stretch-right:after {
         background: transparent;
         display: none; } }
@@ -9383,9 +9395,11 @@ textarea.form-control {
 .img,
 .blog-img,
 .user-img {
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: center center; 
+  border-radius: 20px;
+}
 
 .testimony-section {
   position: relative;
@@ -9397,13 +9411,20 @@ textarea.form-control {
   padding: 5em 0;
   z-index: 0; }
   .testimony-section .aside-stretch {
-    background-color: #fc5e28; }
+    /* background-color: #fc5e28;  */
+    background-image:linear-gradient(90deg,#45b649 10%,#9ebd13 80%);
+  
+  }
     .testimony-section .aside-stretch:after {
-      background-color: #fc5e28; }
+      background-color: #45b649; }
   .testimony-section.aside-stretch-right {
-    background-color: #040e26; }
+
+    background-color: #040e26; 
+  }
+
     .testimony-section.aside-stretch-right:after {
-      background-color: #040e26; }
+      background-color: #040e26; 
+    }
   .testimony-section .overlay {
     position: absolute;
     top: 0;
