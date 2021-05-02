@@ -8382,7 +8382,6 @@ h1, h2, h3, h4, h5,
 .top {
   background: rgba(0, 0, 0, 0.05);
   /* background: #040e26; */
-  background-image: url(https://raw.githubusercontent.com/KashyapAdvaith/trail1/master/un2.jpg);
   background-size: cover;
   color: #ffffff;
   z-index: 3; }
@@ -8407,7 +8406,7 @@ h1, h2, h3, h4, h5,
     .social-media p a span {
       color: #fc5e28; }
     .social-media p a:hover span {
-      color: #fc5e28; }
+      color: #c5c21d; }
 
 .topper {
   font-size: 15px;
@@ -8419,7 +8418,14 @@ h1, h2, h3, h4, h5,
     background: #fff;
     border: 1px solid rgba(0, 0, 0, 0.05); }
     .topper .icon span {
-      color: #fc5e28; }
+      color: #59b73b; 
+    
+    }
+
+    .topper .icon span:hover {
+      color: #cf6712; 
+    
+    }
   .topper .text {
     width: calc(100% - 50px); }
     .topper .text p {
@@ -9170,7 +9176,7 @@ textarea.form-control {
     .project .img .icon {
       width: 70px;
       height: 70px;
-      background: #fc5e28;
+      background: #a4cc03c4;
       margin: 0 auto;
       opacity: 0;
       -moz-transition: all 0.3s ease;
@@ -9211,9 +9217,10 @@ textarea.form-control {
       margin-bottom: 0;
       font-size: 13px; }
       .project .text p span.fa {
-        color: #fc5e28; }
+        color: #abfc28; 
+      }
   .project:hover .text {
-    background: #fc5e28; }
+    background: #a4cc03c4; }
     .project:hover .text .subheading {
       color: #fff; }
     .project:hover .text h3 {
